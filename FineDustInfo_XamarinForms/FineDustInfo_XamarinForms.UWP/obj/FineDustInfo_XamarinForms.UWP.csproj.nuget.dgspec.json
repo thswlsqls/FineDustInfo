@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.UWP\\FineDustInfo_XamarinForms.UWP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.UWP\\FineDustInfo_XamarinForms.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.UWP\\FineDustInfo_XamarinForms.UWP.csproj",
+        "projectName": "FineDustInfo_XamarinForms.UWP",
+        "projectPath": "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.UWP\\FineDustInfo_XamarinForms.UWP.csproj",
+        "packagesPath": "C:\\Users\\eunbin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eunbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {
+              "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.csproj": {
+                "projectPath": "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.1.9, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.csproj",
+        "projectName": "FineDustInfo_XamarinForms",
+        "projectPath": "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.csproj",
+        "packagesPath": "C:\\Users\\eunbin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eunbin\\source\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eunbin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

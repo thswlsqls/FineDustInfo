@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dPXJ43P+VVRhPpXLEtidSBpyiNfzx6NegNNrxX3Xrb0vO+FhtiuVFmY+a+7SxJdHM2NUXpJNLUPkbadJ98vEgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thswl\\Desktop\\forcerecon_bbackup\\repos\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms\\FineDustInfo_XamarinForms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thswl\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\thswl\\.nuget\\packages\\xamarin.essentials\\1.2.0\\xamarin.essentials.1.2.0.nupkg.sha512",
+    "C:\\Users\\thswl\\.nuget\\packages\\xamarin.forms\\4.2.0.709249\\xamarin.forms.4.2.0.709249.nupkg.sha512"
+  ],
+  "logs": []
+}

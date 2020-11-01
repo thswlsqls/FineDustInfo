@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FineDustInfo_Grid_Test.MainPage" BackgroundColor="#B1CBE6">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <SearchBar x:Name="SearchBar_stationname" Placeholder="측정소명을 입력하세요. ex)영등포구" 
+        Grid.Row="1" Grid.Column="1" 
+        BackgroundColor="#D7EFED" 
+        HorizontalTextAlignment="Start"        
+        FontSize="15"
+        Grid.ColumnSpan="10" 
+        Grid.RowSpan="2"
+        CancelButtonColor="#A5CDE3"  
+        
+        SearchButtonPressed="SearchBar_stationname_SearchButtonPressed"          
+        />
+
+        <Button x:Name="Button_검색" Text="측정소 검색" 
+        Grid.Row="1" Grid.Column="11"
+        BackgroundColor="#D7EFED"
+        Grid.ColumnSpan="4" 
+        Grid.RowSpan="2"
+        FontSize="12"
+
+        Clicked="Button_검색_Clicked"
+        />
+
+        <Label x:Name="Label_status" Text="status" 
+       Grid.Row="6" Grid.Column="4"
+       BackgroundColor="#D7EFED"
+       Grid.RowSpan="6"
+       Grid.ColumnSpan="8"        
+       FontSize="50"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       />
+
+        <Label x:Name="Label_value" Text="value" 
+       Grid.Row="16" Grid.Column="2"
+       BackgroundColor="#D7EFED"
+       Grid.RowSpan="3"
+       Grid.ColumnSpan="12"
+       FontSize="30"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"
+       />
+
+        <Label x:Name="Label_updatetime" Text="updetetime"
+        Grid.Row="29" Grid.Column="2"
+        BackgroundColor="#B1CBE6"
+        Grid.RowSpan="2"
+        Grid.ColumnSpan="12"
+        FontSize="13"
+        HorizontalTextAlignment="Center"
+        VerticalTextAlignment="Center"     
+        />
+
+
+        <Button x:Name="Button_NextPage" Text="NextPage"
+        Grid.Row="29" Grid.Column="11"
+        BackgroundColor="#D7EFED"
+        Grid.ColumnSpan="4" 
+        Grid.RowSpan="2"
+        FontSize="12"
+        
+        Clicked="Button_NextPage_Clicked"
+        />
+
+    </Grid>
+
+</ContentPage>
+

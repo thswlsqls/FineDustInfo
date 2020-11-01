@@ -1,0 +1,6 @@
+C:\Users\eunbin\source\repos\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\obj\Debug\netstandard1.4\FineDustInfo_XamarinForms.csprojAssemblyReference.cache
+C:\Users\eunbin\source\repos\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\obj\Debug\netstandard1.4\App.xaml.g.cs
+C:\Users\eunbin\source\repos\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\obj\Debug\netstandard1.4\MainPage.xaml.g.cs
+C:\Users\eunbin\source\repos\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\obj\Debug\netstandard1.4\Page1.xaml.g.cs
+C:\Users\eunbin\source\repos\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\obj\Debug\netstandard1.4\FineDustInfo_XamarinForms.AssemblyInfoInputs.cache
+C:\Users\eunbin\source\repos\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\FineDustInfo_XamarinForms\obj\Debug\netstandard1.4\FineDustInfo_XamarinForms.AssemblyInfo.cs

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FineDustInfo_Grid_Test.Page1" BackgroundColor="#B1CBE6">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="Button_수치확인" Text="수치확인"
+        Grid.Row="1" Grid.Column="6"
+        BackgroundColor="#D7EFED"
+        Grid.ColumnSpan="4" 
+        Grid.RowSpan="2"
+        FontSize="12"
+        
+        Clicked="Button_수치확인_Clicked"/>
+
+        <Label x:Name="Label_so2Value"  Text="so2Value"
+       Grid.Row="6" Grid.Column="2"
+       BackgroundColor="#D7EFED"
+       Grid.RowSpan="4"
+       Grid.ColumnSpan="12"        
+       FontSize="20"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"/>
+
+        <Label x:Name="Label_coValue"  Text="coValue"
+       Grid.Row="9" Grid.Column="2"
+       BackgroundColor="#D7EFED"
+       Grid.RowSpan="4"
+       Grid.ColumnSpan="12"        
+       FontSize="20"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"/>
+
+        <Label x:Name="Label_o3Value"  Text="o3Value"
+       Grid.Row="12" Grid.Column="2"
+       BackgroundColor="#D7EFED"
+       Grid.RowSpan="4"
+       Grid.ColumnSpan="12"        
+       FontSize="20"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"/>
+
+        <Label x:Name="Label_no2Value"  Text="no2Value"
+       Grid.Row="15" Grid.Column="2"
+       BackgroundColor="#D7EFED"
+       Grid.RowSpan="4"
+       Grid.ColumnSpan="12"        
+       FontSize="20"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"/>
+
+        <Label x:Name="Label_pm10Value"  Text="pm10Value"
+       Grid.Row="18" Grid.Column="2"
+       BackgroundColor="#D7EFED"
+       Grid.RowSpan="4"
+       Grid.ColumnSpan="12"        
+       FontSize="20"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"/>
+
+        <Label x:Name="Label_pm25Value"  Text="pm25Value"
+       Grid.Row="21" Grid.Column="2"
+       BackgroundColor="#D7EFED"
+       Grid.RowSpan="4"
+       Grid.ColumnSpan="12"        
+       FontSize="20"
+       HorizontalTextAlignment="Center"
+       VerticalTextAlignment="Center"/>
+
+        <Button x:Name="Button_검색창으로"  Text="검색창으로"
+        Grid.Row="29" Grid.Column="11"
+        BackgroundColor="#D7EFED"
+        Grid.ColumnSpan="4" 
+        Grid.RowSpan="2"
+        FontSize="12"
+        
+        Clicked="Button_검색창으로_Clicked"/>
+
+    </Grid>
+
+
+</ContentPage>
